@@ -1,0 +1,83 @@
+<section class="settings">
+  <h2 class="settings-heading">設定画面</h2>
+  <p class="kintoneplugin-desc"></p>
+  <form class="js-submit-settings">
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">API KEY</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">API KEYを入力して下さい。</div>
+      <input type="text" class="js-text-message-api kintoneplugin-input-text" />
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">スペースフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">ボタンを設置したいスペースフィールドの要素IDを入力してください</div>
+      <input type="text" class="js-text-message-space kintoneplugin-input-text" />
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">対象ファイルフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">対象ファイルフィールドのフィールド名を選択して下さい。</div>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="file_code"></select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">対象ファイルタイプフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">対象ファイルタイプフィールドのフィールド名を選択して下さい。</div>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="file_type_code"></select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">機能フィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">機能フィールドを選択して下さい。</div>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="feature_code"></select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">結果表示フィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">結果を保存するフィールド名を選択して下さい。</div>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="result_code"></select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-block">
+      <label class="kintoneplugin-label">
+        <span id="container_label">結果スペースフィールド</span>
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <div class="kintoneplugin-row">結果表示を設置したいスペースフィールドの要素IDを入力してください</div>
+      <input type="text" class="js-result-space kintoneplugin-input-text" />
+    </div>
+
+    <p class="kintoneplugin-row">
+      <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
+      <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+  </form>
+</section>

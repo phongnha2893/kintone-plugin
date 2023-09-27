@@ -1,0 +1,40 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js",
+            "js/desktop.js"
+        ],
+        "css": [
+            "css/51-modern-default.css",
+            "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css",
+            "css/desktop.css"
+        ]
+    },
+    "icon": "image/icon.png",
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-modern-default.css",
+            "css/config.css"
+        ],
+        "required_params": [
+            "apikey"
+        ]
+    },
+    "name": {
+        "en": "GCP Vision API ",
+        "ja": "GCP Vision API "
+    },
+    "description": {
+        "en": "The plugin uses the GCP Vision API to detect objects in images and files. Contact: nha@3a-c.com",
+        "ja": "このプラグインは GCP Vision API を使用して画像やファイル内のオブジェクトを検出します。連絡先: nha@3a-c.com"
+    }
+}
